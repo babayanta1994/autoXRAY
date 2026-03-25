@@ -248,7 +248,7 @@ WEB_PATH="/var/www/$DOMAIN"
 mkdir -p "$WEB_PATH"
 
 # Генерируем сайт маскировку
-bash -c "$(curl -sL https://github.com/xVRVx/autoXRAY/raw/refs/heads/main/test/gen_page2.sh)" -- "$WEB_PATH"
+bash -c "$(curl -sL https://github.com/babayanta1994/autoXRAY/raw/refs/heads/main/test/gen_page2.sh)" -- "$WEB_PATH"
 
 # Установка Xray
 bash -c "$(curl -sL https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install
@@ -728,7 +728,7 @@ subPageLink="https://$DOMAIN/$path_subpage.json"
 configListLink="https://$DOMAIN/$path_subpage.html"
 
 echo -e "\n\n${GRN}Устанавливаем MTProto FakeTLS ${NC}"
-source <(curl -sL https://github.com/xVRVx/autoXRAY/raw/refs/heads/main/test/telemt-test.sh)
+source <(curl -sL https://github.com/babayanta1994/autoXRAY/raw/refs/heads/main/test/telemt-test.sh)
 
 echo -e "\n\n${GRN}Создаем страницу подписки ${NC}"
 cat > "$WEB_PATH/$path_subpage.html" <<'EOF'
@@ -810,7 +810,7 @@ cat >> "$WEB_PATH/$path_subpage.html" <<EOF
     <button class="btn-action qr-btn" onclick="showQR('cAll')">QR</button>
 </div>
 
-<div><a style="color:white;margin:40px auto 20px;display:block;text-align:center;" href="https://github.com/xVRVx/autoXRAY">https://github.com/xVRVx/autoXRAY</a></div>
+<div><a style="color:white;margin:40px auto 20px;display:block;text-align:center;" href="https://github.com/babayanta1994/autoXRAY">https://github.com/babayanta1994/autoXRAY</a></div>
 
 <div id="qrModal" class="modal-overlay"><div class="modal-content"><div id="qrcode"></div><button class="close-modal-btn" onclick="closeModal()">Close</button></div></div>
 </body></html>
@@ -844,6 +844,6 @@ ${GRN}$MTProto ${NC}
 Открыт локальный socks5 на порту 10443.
 Внутри клиента: socks5 на 10808, 2080 и http на 10809.
 
-${GRN}Поддержать автора: https://github.com/xVRVx/autoXRAY ${NC}
+${GRN}Поддержать автора: https://github.com/babayanta1994/autoXRAY ${NC}
 
 "
