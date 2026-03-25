@@ -4,7 +4,7 @@
 
 **Основной скрипт для euVPS**
 ```
-bash -c "$(curl -L https://github.com/xVRVx/autoXRAY/raw/refs/heads/main/test/autoXRAY1-test.sh)" -- поддомен1.Домен.Ком
+bash -c "$(curl -L https://github.com/babayanta1994/autoXRAY/raw/refs/heads/main/test/autoXRAY1-test.sh)" -- поддомен1.Домен.Ком
 ```
 
 
@@ -12,7 +12,7 @@ bash -c "$(curl -L https://github.com/xVRVx/autoXRAY/raw/refs/heads/main/test/au
 
 **Для моста (ru/kz VPS)**
 ```
-bash -c "$(curl -L https://github.com/xVRVx/autoXRAY/raw/refs/heads/main/test/autoXRAYselfRUbrEUxhttp-test.sh)" -- поддомен2.Домен.Ком "vless://xhttp"
+bash -c "$(curl -L https://github.com/babayanta1994/autoXRAY/raw/refs/heads/main/test/autoXRAYselfRUbrEUxhttp-test.sh)" -- поддомен2.Домен.Ком "vless://xhttp"
 ```
 Также теперь можно использовать несколько xhttp конфигов, все они будут добавлены в мост.
 
