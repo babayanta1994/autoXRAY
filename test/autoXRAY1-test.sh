@@ -642,7 +642,6 @@ print_config() {
           "geosite:microsoft",
           "geosite:win-update",
           "geosite:win-extra",
-          "geosite:google-play",
           "geosite:steam",
           "geosite:category-ru"
         ],
