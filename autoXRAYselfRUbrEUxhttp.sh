@@ -515,7 +515,6 @@ cat << 'EOF' | envsubst > "$SCRIPT_DIR/config.json"
           "geosite:microsoft",
           "geosite:win-update",
           "geosite:win-extra",
-          "geosite:google-play",
           "geosite:steam",
           "geosite:category-ru"
         ],
