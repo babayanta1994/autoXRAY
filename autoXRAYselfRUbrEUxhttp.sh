@@ -587,7 +587,6 @@ cat << 'EOF' | envsubst > "$WEB_PATH/$path_subpage.json"
           "geosite:microsoft",
           "geosite:win-update",
           "geosite:win-extra",
-          "geosite:google-play",
           "geosite:steam",
           "geosite:category-ru"
         ],
@@ -754,7 +753,6 @@ cat << 'EOF' | envsubst > "$WEB_PATH/$path_subpage.json"
           "geosite:microsoft",
           "geosite:win-update",
           "geosite:win-extra",
-          "geosite:google-play",
           "geosite:steam",
           "geosite:category-ru"
         ],
@@ -917,7 +915,6 @@ cat << 'EOF' | envsubst > "$WEB_PATH/$path_subpage.json"
           "geosite:microsoft",
           "geosite:win-update",
           "geosite:win-extra",
-          "geosite:google-play",
           "geosite:steam",
           "geosite:category-ru"
         ],
